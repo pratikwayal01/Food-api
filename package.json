@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
+    "start": "json-server --watch foodData.json --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
     "json-server": "^1.0.0-beta.2"
   }
 }
