@@ -1,7 +1,7 @@
 {
   "name": "render-json-server",
   "version": "1.0.0",
-  "description": "[![Click to watch the video](http://img.youtube.com/vi/wN0n2gj0z9o/0.jpg)](http://www.youtube.com/watch?v=wN0n2gj0z9o)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -21,6 +21,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.1"
   }
 }
