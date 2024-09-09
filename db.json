@@ -1,0 +1,848 @@
+{
+  "dosa": {
+      "name": "Dosa",
+      "protein": 5.46,
+      "carbs": 30.8,
+      "fat": 4.27,
+      "calories": 184,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "chicken tikka masala": {
+      "name": "Chicken Tikka Masala",
+      "protein": 27,
+      "carbs": 10,
+      "fat": 15,
+      "calories": 290,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "palak paneer": {
+      "name": "Palak Paneer",
+      "protein": 11,
+      "carbs": 6,
+      "fat": 19,
+      "calories": 240,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "chana masala": {
+      "name": "Chana Masala",
+      "protein": 9,
+      "carbs": 27,
+      "fat": 8,
+      "calories": 220,
+      "allergens": []
+  },
+  "aloo gobi": {
+      "name": "Aloo Gobi",
+      "protein": 4,
+      "carbs": 22,
+      "fat": 10,
+      "calories": 190,
+      "allergens": []
+  },
+  "butter chicken": {
+      "name": "Butter Chicken",
+      "protein": 24,
+      "carbs": 8,
+      "fat": 22,
+      "calories": 330,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "vegetable biryani": {
+      "name": "Vegetable Biryani",
+      "protein": 6,
+      "carbs": 45,
+      "fat": 12,
+      "calories": 310,
+      "allergens": []
+  },
+  "samosa": {
+      "name": "Samosa",
+      "protein": 4,
+      "carbs": 24,
+      "fat": 12,
+      "calories": 220,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "naan": {
+      "name": "Naan",
+      "protein": 7,
+      "carbs": 48,
+      "fat": 5,
+      "calories": 260,
+      "allergens": [
+          "gluten",
+          "dairy"
+      ]
+  },
+  "dal makhani": {
+      "name": "Dal Makhani",
+      "protein": 9,
+      "carbs": 24,
+      "fat": 7,
+      "calories": 200,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "tandoori chicken": {
+      "name": "Tandoori Chicken",
+      "protein": 30,
+      "carbs": 2,
+      "fat": 8,
+      "calories": 200,
+      "allergens": []
+  },
+  "malai kofta": {
+      "name": "Malai Kofta",
+      "protein": 6,
+      "carbs": 18,
+      "fat": 22,
+      "calories": 290,
+      "allergens": [
+          "dairy",
+          "nuts"
+      ]
+  },
+  "rogan josh": {
+      "name": "Rogan Josh",
+      "protein": 22,
+      "carbs": 6,
+      "fat": 18,
+      "calories": 280,
+      "allergens": []
+  },
+  "paneer tikka": {
+      "name": "Paneer Tikka",
+      "protein": 18,
+      "carbs": 4,
+      "fat": 22,
+      "calories": 290,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "chapati": {
+      "name": "Chapati",
+      "protein": 3,
+      "carbs": 15,
+      "fat": 1,
+      "calories": 80,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "gulab jamun": {
+      "name": "Gulab Jamun",
+      "protein": 2,
+      "carbs": 40,
+      "fat": 8,
+      "calories": 240,
+      "allergens": [
+          "dairy",
+          "gluten"
+      ]
+  },
+  "raita": {
+      "name": "Raita",
+      "protein": 3,
+      "carbs": 5,
+      "fat": 2,
+      "calories": 50,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "bhindi masala": {
+      "name": "Bhindi Masala",
+      "protein": 3,
+      "carbs": 12,
+      "fat": 9,
+      "calories": 140,
+      "allergens": []
+  },
+  "idli": {
+      "name": "Idli",
+      "protein": 2,
+      "carbs": 16,
+      "fat": 0.5,
+      "calories": 78,
+      "allergens": []
+  },
+  "matar paneer": {
+      "name": "Matar Paneer",
+      "protein": 10,
+      "carbs": 14,
+      "fat": 16,
+      "calories": 240,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "rajma": {
+      "name": "Rajma",
+      "protein": 9,
+      "carbs": 22,
+      "fat": 7,
+      "calories": 190,
+      "allergens": []
+  },
+  "aloo paratha": {
+      "name": "Aloo Paratha",
+      "protein": 7,
+      "carbs": 50,
+      "fat": 15,
+      "calories": 350,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "vegetable pulao": {
+      "name": "Vegetable Pulao",
+      "protein": 7,
+      "carbs": 40,
+      "fat": 8,
+      "calories": 250,
+      "allergens": []
+  },
+  "paneer butter masala": {
+      "name": "Paneer Butter Masala",
+      "protein": 15,
+      "carbs": 12,
+      "fat": 20,
+      "calories": 290,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "khichdi": {
+      "name": "Khichdi",
+      "protein": 6,
+      "carbs": 30,
+      "fat": 5,
+      "calories": 200,
+      "allergens": []
+  },
+  "tikki chaat": {
+      "name": "Tikki Chaat",
+      "protein": 6,
+      "carbs": 30,
+      "fat": 10,
+      "calories": 250,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "puri": {
+      "name": "Puri",
+      "protein": 4,
+      "carbs": 20,
+      "fat": 8,
+      "calories": 180,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "vegetable korma": {
+      "name": "Vegetable Korma",
+      "protein": 8,
+      "carbs": 15,
+      "fat": 20,
+      "calories": 250,
+      "allergens": [
+          "dairy",
+          "nuts"
+      ]
+  },
+  "bhel puri": {
+      "name": "Bhel Puri",
+      "protein": 3,
+      "carbs": 25,
+      "fat": 6,
+      "calories": 160,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "sev puri": {
+      "name": "Sev Puri",
+      "protein": 3,
+      "carbs": 30,
+      "fat": 8,
+      "calories": 180,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "aachari paneer": {
+      "name": "Aachari Paneer",
+      "protein": 15,
+      "carbs": 10,
+      "fat": 18,
+      "calories": 250,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "prawn curry": {
+      "name": "Prawn Curry",
+      "protein": 20,
+      "carbs": 5,
+      "fat": 15,
+      "calories": 220,
+      "allergens": [
+          "shellfish"
+      ]
+  },
+  "fish curry": {
+      "name": "Fish Curry",
+      "protein": 25,
+      "carbs": 8,
+      "fat": 12,
+      "calories": 230,
+      "allergens": [
+          "fish"
+      ]
+  },
+  "chana dal": {
+      "name": "Chana Dal",
+      "protein": 13,
+      "carbs": 30,
+      "fat": 4,
+      "calories": 200,
+      "allergens": []
+  },
+  "pav bhaji": {
+      "name": "Pav Bhaji",
+      "protein": 8,
+      "carbs": 40,
+      "fat": 15,
+      "calories": 300,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "idli sambhar": {
+      "name": "Idli Sambhar",
+      "protein": 7,
+      "carbs": 25,
+      "fat": 6,
+      "calories": 180,
+      "allergens": []
+  },
+  "methi paratha": {
+      "name": "Methi Paratha",
+      "protein": 6,
+      "carbs": 40,
+      "fat": 10,
+      "calories": 250,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "chole bhature": {
+      "name": "Chole Bhature",
+      "protein": 12,
+      "carbs": 60,
+      "fat": 15,
+      "calories": 500,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "pani puri": {
+      "name": "Pani Puri",
+      "protein": 3,
+      "carbs": 30,
+      "fat": 6,
+      "calories": 180,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "misal pav": {
+      "name": "Misal Pav",
+      "protein": 8,
+      "carbs": 50,
+      "fat": 12,
+      "calories": 350,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "kadhi pakora": {
+      "name": "Kadhi Pakora",
+      "protein": 8,
+      "carbs": 20,
+      "fat": 15,
+      "calories": 250,
+      "allergens": [
+          "dairy",
+          "gluten"
+      ]
+  },
+  "dal tadka": {
+      "name": "Dal Tadka",
+      "protein": 10,
+      "carbs": 20,
+      "fat": 8,
+      "calories": 180,
+      "allergens": []
+  },
+  "aloo tikki": {
+      "name": "Aloo Tikki",
+      "protein": 2,
+      "carbs": 20,
+      "fat": 7,
+      "calories": 130,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "bhature": {
+      "name": "Bhature",
+      "protein": 6,
+      "carbs": 40,
+      "fat": 10,
+      "calories": 300,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "chole": {
+      "name": "Chole",
+      "protein": 10,
+      "carbs": 30,
+      "fat": 8,
+      "calories": 250,
+      "allergens": []
+  },
+  "vegetable soup": {
+      "name": "Vegetable Soup",
+      "protein": 4,
+      "carbs": 15,
+      "fat": 2,
+      "calories": 100,
+      "allergens": []
+  },
+  "korma": {
+      "name": "Korma",
+      "protein": 10,
+      "carbs": 20,
+      "fat": 15,
+      "calories": 250,
+      "allergens": [
+          "dairy",
+          "nuts"
+      ]
+  },
+  "masoor dal": {
+      "name": "Masoor Dal",
+      "protein": 9,
+      "carbs": 25,
+      "fat": 1,
+      "calories": 160,
+      "allergens": []
+  },
+  "egg curry": {
+      "name": "Egg Curry",
+      "protein": 18,
+      "carbs": 8,
+      "fat": 12,
+      "calories": 220,
+      "allergens": [
+          "egg"
+      ]
+  },
+  "methi thepla": {
+      "name": "Methi Thepla",
+      "protein": 5,
+      "carbs": 30,
+      "fat": 7,
+      "calories": 180,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "dal soup": {
+      "name": "Dal Soup",
+      "protein": 8,
+      "carbs": 20,
+      "fat": 3,
+      "calories": 160,
+      "allergens": []
+  },
+  "aloo baingan": {
+      "name": "Aloo Baingan",
+      "protein": 4,
+      "carbs": 25,
+      "fat": 10,
+      "calories": 200,
+      "allergens": []
+  },
+  "egg bhurji": {
+      "name": "Egg Bhurji",
+      "protein": 20,
+      "carbs": 5,
+      "fat": 15,
+      "calories": 250,
+      "allergens": [
+          "egg"
+      ]
+  },
+  "tandoori roti": {
+      "name": "Tandoori Roti",
+      "protein": 5,
+      "carbs": 30,
+      "fat": 2,
+      "calories": 150,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "kebabs": {
+      "name": "Kebabs",
+      "protein": 25,
+      "carbs": 5,
+      "fat": 12,
+      "calories": 220,
+      "allergens": []
+  },
+  "fruit chaat": {
+      "name": "Fruit Chaat",
+      "protein": 2,
+      "carbs": 20,
+      "fat": 1,
+      "calories": 90,
+      "allergens": []
+  },
+  "kheer": {
+      "name": "Kheer",
+      "protein": 6,
+      "carbs": 25,
+      "fat": 12,
+      "calories": 250,
+      "allergens": [
+          "dairy"
+      ]
+  },
+  "rava idli": {
+      "name": "Rava Idli",
+      "protein": 3,
+      "carbs": 20,
+      "fat": 5,
+      "calories": 150,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "masala dosa": {
+      "name": "Masala Dosa",
+      "protein": 6,
+      "carbs": 35,
+      "fat": 7,
+      "calories": 220,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "biryani": {
+      "name": "Biryani",
+      "protein": 10,
+      "carbs": 50,
+      "fat": 12,
+      "calories": 300,
+      "allergens": []
+  },
+  "dal sambar": {
+      "name": "Dal Sambar",
+      "protein": 8,
+      "carbs": 25,
+      "fat": 7,
+      "calories": 180,
+      "allergens": []
+  },
+  "pulao": {
+      "name": "Pulao",
+      "protein": 6,
+      "carbs": 35,
+      "fat": 8,
+      "calories": 220,
+      "allergens": []
+  },
+  "corn tikka": {
+      "name": "Corn Tikka",
+      "protein": 5,
+      "carbs": 15,
+      "fat": 10,
+      "calories": 180,
+      "allergens": []
+  },
+  "vada pav": {
+      "name": "Vada Pav",
+      "protein": 6,
+      "carbs": 30,
+      "fat": 14,
+      "calories": 300,
+      "allergens": [
+          "gluten"
+      ]
+  },
+  "sambar": {
+      "name": "Sambar",
+      "protein": 8,
+      "carbs": 20,
+      "fat": 7,
+      "calories": 180,
+      "allergens": []
+  },
+  "upma": {
+  "name": "Upma",
+  "protein": 4,
+  "carbs": 30,
+  "fat": 6,
+  "calories": 180,
+  "allergens": ["gluten"]
+},
+"poha": {
+  "name": "Poha",
+  "protein": 3,
+  "carbs": 28,
+  "fat": 5,
+  "calories": 165,
+  "allergens": []
+},
+"uttapam": {
+  "name": "Uttapam",
+  "protein": 6,
+  "carbs": 30,
+  "fat": 8,
+  "calories": 210,
+  "allergens": []
+},
+"paratha": {
+  "name": "Paratha",
+  "protein": 5,
+  "carbs": 30,
+  "fat": 10,
+  "calories": 230,
+  "allergens": ["gluten"]
+},
+"dal fry": {
+  "name": "Dal Fry",
+  "protein": 10,
+  "carbs": 25,
+  "fat": 6,
+  "calories": 190,
+  "allergens": []
+},
+"jeera rice": {
+  "name": "Jeera Rice",
+  "protein": 4,
+  "carbs": 40,
+  "fat": 5,
+  "calories": 220,
+  "allergens": []
+},
+"roti": {
+  "name": "Roti",
+  "protein": 3,
+  "carbs": 15,
+  "fat": 1,
+  "calories": 80,
+  "allergens": ["gluten"]
+},
+"lassi": {
+  "name": "Lassi",
+  "protein": 3,
+  "carbs": 15,
+  "fat": 2,
+  "calories": 90,
+  "allergens": ["dairy"]
+},
+"rasam": {
+  "name": "Rasam",
+  "protein": 2,
+  "carbs": 10,
+  "fat": 1,
+  "calories": 60,
+  "allergens": []
+},
+"coconut chutney": {
+  "name": "Coconut Chutney",
+  "protein": 2,
+  "carbs": 5,
+  "fat": 10,
+  "calories": 120,
+  "allergens": []
+},
+"aloo matar": {
+  "name": "Aloo Matar",
+  "protein": 5,
+  "carbs": 25,
+  "fat": 8,
+  "calories": 190,
+  "allergens": []
+},
+"baingan bharta": {
+  "name": "Baingan Bharta",
+  "protein": 3,
+  "carbs": 12,
+  "fat": 7,
+  "calories": 120,
+  "allergens": []
+},
+"pakora": {
+  "name": "Pakora",
+  "protein": 3,
+  "carbs": 15,
+  "fat": 10,
+  "calories": 160,
+  "allergens": ["gluten"]
+},
+"chaat": {
+  "name": "Chaat",
+  "protein": 4,
+  "carbs": 25,
+  "fat": 8,
+  "calories": 180,
+  "allergens": ["gluten"]
+},
+"kachumber salad": {
+  "name": "Kachumber Salad",
+  "protein": 2,
+  "carbs": 8,
+  "fat": 1,
+  "calories": 50,
+  "allergens": []
+},
+"sheera": {
+  "name": "Sheera",
+  "protein": 3,
+  "carbs": 30,
+  "fat": 8,
+  "calories": 200,
+  "allergens": ["gluten"]
+},
+"moong dal": {
+  "name": "Moong Dal",
+  "protein": 12,
+  "carbs": 25,
+  "fat": 2,
+  "calories": 170,
+  "allergens": []
+},
+"papad": {
+  "name": "Papad",
+  "protein": 2,
+  "carbs": 10,
+  "fat": 5,
+  "calories": 90,
+  "allergens": []
+},
+"pickle": {
+  "name": "Pickle",
+  "protein": 1,
+  "carbs": 5,
+  "fat": 2,
+  "calories": 40,
+  "allergens": []
+},
+"chicken curry": {
+  "name": "Chicken Curry",
+  "protein": 25,
+  "carbs": 10,
+  "fat": 15,
+  "calories": 280,
+  "allergens": []
+},
+"aloo methi": {
+  "name": "Aloo Methi",
+  "protein": 4,
+  "carbs": 20,
+  "fat": 8,
+  "calories": 180,
+  "allergens": []
+},
+"rajma chawal": {
+  "name": "Rajma Chawal",
+  "protein": 10,
+  "carbs": 50,
+  "fat": 6,
+  "calories": 300,
+  "allergens": []
+},
+"gatte ki sabzi": {
+  "name": "Gatte Ki Sabzi",
+  "protein": 10,
+  "carbs": 25,
+  "fat": 15,
+  "calories": 250,
+  "allergens": ["gluten"]
+},
+"bundi raita": {
+  "name": "Bundi Raita",
+  "protein": 3,
+  "carbs": 10,
+  "fat": 4,
+  "calories": 80,
+  "allergens": ["dairy"]
+},
+"dhokla": {
+  "name": "Dhokla",
+  "protein": 5,
+  "carbs": 20,
+  "fat": 2,
+  "calories": 120,
+  "allergens": ["gluten"]
+},
+"kachori": {
+  "name": "Kachori",
+  "protein": 4,
+  "carbs": 25,
+  "fat": 12,
+  "calories": 220,
+  "allergens": ["gluten"]
+},
+"rawa upma": {
+  "name": "Rawa Upma",
+  "protein": 6,
+  "carbs": 30,
+  "fat": 7,
+  "calories": 200,
+  "allergens": ["gluten"]
+},
+"kofta curry": {
+  "name": "Kofta Curry",
+  "protein": 8,
+  "carbs": 15,
+  "fat": 20,
+  "calories": 250,
+  "allergens": ["dairy", "nuts"]
+},
+"pesarattu": {
+  "name": "Pesarattu",
+  "protein": 6,
+  "carbs": 30,
+  "fat": 6,
+  "calories": 200,
+  "allergens": []
+},
+"ginger tea": {
+  "name": "Ginger Tea",
+  "protein": 1,
+  "carbs": 10,
+  "fat": 1,
+  "calories": 50,
+  "allergens": []
+}
+}
