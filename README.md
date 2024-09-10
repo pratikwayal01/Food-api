@@ -62,7 +62,4 @@ The frontend is deployed on [Netlify](https://netlify.com) for easy, fast, and f
 
 This project is licensed under the MIT License.
 
----
-
 Made with ❤️ by Pratik
-```
