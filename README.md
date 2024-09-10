@@ -1,4 +1,3 @@
-```markdown
 # 🍽️ Indian Food Nutrition API
 
 This project provides an API for Indian food nutrition information and a frontend to display the data. It's perfect for anyone looking to get nutritional information on Indian dishes!
