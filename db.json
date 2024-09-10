@@ -13,7 +13,7 @@
         "name": "Chicken-Tikka-Masala",
         "protein": 27,
         "carbs": 10,
-        "fat": 15,
+        "fat": 15, 
         "calories": 290,
         "allergens": [
             "dairy"
