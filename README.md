@@ -66,5 +66,3 @@ This project is licensed under the MIT License.
 
 Made with ❤️ by Pratik
 ```
-
-Feel free to modify the content and adjust it to match your project’s exact details!
