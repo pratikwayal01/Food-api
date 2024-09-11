@@ -5,7 +5,6 @@ const path = require("path");
 const stringSimilarity = require("string-similarity");
 
 const app = express();
-const server = jsonServer.create();
 const router = jsonServer.router("db.json"); // Assuming 'db.json' contains your food data
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 8080;
@@ -24,7 +23,7 @@ fs.readFile(foodDataPath, 'utf8', (err, data) => {
 
 // Middleware to parse JSON requests
 app.use(express.json());
-server.use(middlewares);
+app.use(middlewares); // Use json-server middlewares
 
 // Helper function to find the best match for a food name
 function findBestMatch(foodName) {
@@ -37,7 +36,7 @@ function findBestMatch(foodName) {
   return null;
 }
 
-// Endpoint to get nutritional information based on the food name
+// Custom endpoint to get nutritional information based on the food name
 app.get('/nutrition/:foodName', (req, res) => {
   const foodName = req.params.foodName.toLowerCase();
   const foodItem = findBestMatch(foodName);
@@ -58,10 +57,10 @@ app.get('/nutrition/:foodName', (req, res) => {
   });
 });
 
-// Use json-server for basic CRUD operations
-server.use(router);
+// Use json-server for basic CRUD operations on other routes
+app.use('/api', router);
 
 // Start the server
-server.listen(port, () => {
+app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });

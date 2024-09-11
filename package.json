@@ -20,7 +20,9 @@
   "homepage": "https://github.com/UmaSahni/render-json-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "express": "^4.20.0",
     "json-serve": "^0.1.0",
-    "json-server": "^0.17.1"
+    "json-server": "^0.17.1",
+    "string-similarity": "^4.0.4"
   }
 }
