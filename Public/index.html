@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .food-data {
+            margin-top: 20px;
+        }
+        .food-data h2 {
+            color: #333;
+        }
+        .food-data p {
+            margin: 5px 0;
+        }
+        .error {
+            color: red;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Food Information</h1>
+    
+    <div class="container">
+        <label for="food-input">Enter food name:</label>
+        <input type="text" id="food-input" placeholder="e.g. dosa, idli" />
+        <button onclick="fetchFoodData()">Get Food Info</button>
+
+        <div class="food-data" id="food-data"></div>
+        <div class="error" id="error"></div>
+    </div>
+
+    <script>
+        async function fetchFoodData() {
+            // Get the food name from the input field
+            const foodName = document.getElementById('food-input').value.toLowerCase();
+            const foodDataDiv = document.getElementById('food-data');
+            const errorDiv = document.getElementById('error');
+
+            // Clear previous data
+            foodDataDiv.innerHTML = '';
+            errorDiv.innerHTML = '';
+
+            if (!foodName) {
+                errorDiv.innerHTML = 'Please enter a food name!';
+                return;
+            }
+
+            try {
+                // Fetch data from the backend API
+                const response = await fetch(`https://pratikw.pythonanywhere.com/foods//${foodName}`);
+                
+                if (!response.ok) {
+                    throw new Error('Food not found');
+                }
+
+                const data = await response.json();
+
+                // Display the food data in a structured format
+                foodDataDiv.innerHTML = `
+                    <h2>${data.name}</h2>
+                    <p><strong>Protein:</strong> ${data.protein}g</p>
+                    <p><strong>Carbohydrates:</strong> ${data.carbs}g</p>
+                    <p><strong>Fat:</strong> ${data.fat}g</p>
+                    <p><strong>Calories:</strong> ${data.calories}</p>
+                    <p><strong>Allergens:</strong> ${data.allergens.length ? data.allergens.join(', ') : 'None'}</p>
+                `;
+            } catch (error) {
+                // Display an error message if the food item is not found
+                errorDiv.innerHTML = error.message;
+            }
+        }
+    </script>
+
+</body>
+</html>

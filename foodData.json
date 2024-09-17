@@ -1,0 +1,948 @@
+{
+    "dosa": {
+        "name": "dosa",
+        "protein": 5.46,
+        "carbs": 30.8,
+        "fat": 4.27,
+        "calories": 184,
+        "url":"https://images.unsplash.com/photo-1708146464361-5c5ce4f9abb6?q=80&w=1897&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "chicken-tikka-masala": {
+        "name": "chicken-tikka-masala",
+        "protein": 27,
+        "carbs": 10,
+        "fat": 15, 
+        "calories": 290,
+        "url":"https://images.unsplash.com/photo-1694579740719-0e601c5d2437?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "palak-paneer": {
+        "name": "palak-paneer",
+        "protein": 11,
+        "carbs": 6,
+        "fat": 19,
+        "calories": 240,
+        "url":"https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "chana-masala": {
+        "name": "chana-masala",
+        "protein": 9,
+        "carbs": 27,
+        "fat": 8,
+        "calories": 220,
+        "url":"https://media.istockphoto.com/id/1182758935/photo/homemade-indian-chickpea-chana-masala.jpg?s=612x612&w=0&k=20&c=t9hk82loyPEu37eFnA8v-oKGscX4_ektoiwUsXVsegs=",
+        "allergens": []
+    },
+    "aloo-gobi": {
+        "name": "aloo-gobi",
+        "protein": 4,
+        "carbs": 22,
+        "fat": 10,
+        "calories": 190,
+        "url":"https://media.istockphoto.com/id/1091565958/photo/spicy-potato-curry-indian-recipe.jpg?s=612x612&w=0&k=20&c=km419oVyfT731IrxaqSqUYGS5vgN1K1f1Xb32sw1Jms=",
+        "allergens": []
+    },
+    "butter-chicken": {
+        "name": "butter-chicken",
+        "protein": 24,
+        "carbs": 8,
+        "fat": 22,
+        "calories": 330,
+        "url": "https://feelgoodfoodie.net/wp-content/uploads/2024/02/Easy-Butter-Chicken-TIMG.jpg",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "vegetable-biryani": {
+        "name": "vegetable-biryani",
+        "protein": 6,
+        "carbs": 45,
+        "fat": 12,
+        "calories": 310,
+        "url": "https://www.authenticroyal.com/wp-content/uploads/2016/11/vegetable-biryani.jpg",
+        "allergens": []
+    },
+    "samosa": {
+        "name": "samosa",
+        "protein": 4,
+        "carbs": 24,
+        "fat": 12,
+        "calories": 220,
+        "url": "https://plus.unsplash.com/premium_photo-1695297516676-04a259917c03?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "naan": {
+        "name": "naan",
+        "protein": 7,
+        "carbs": 48,
+        "fat": 5,
+        "calories": 260,
+        "url": "https://images.unsplash.com/photo-1697155406014-04dc649b0953?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "gluten",
+            "dairy"
+        ]
+    },
+    "dal-makhani": {
+        "name": "dal-makhani",
+        "protein": 9,
+        "carbs": 24,
+        "fat": 7,
+        "calories": 200,
+        "url": "https://media.istockphoto.com/id/1668579754/photo/close-up-image-of-serving-dish-filled-with-dal-makhani-curry-served-with-naan-flatbread.webp?a=1&b=1&s=612x612&w=0&k=20&c=TgWAmBgiyND5UCbjLtfYg7wcx0XmIQCUhO4XAAy4-Gg=",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "tandoori-chicken": {
+        "name": "tandoori-chicken",
+        "protein": 30,
+        "carbs": 2,
+        "fat": 8,
+        "calories": 200,
+        "url": "https://plus.unsplash.com/premium_photo-1669245207961-0281fd9396eb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": []
+    },
+    "malai-kofta": {
+        "name": "malai-kofta",
+        "protein": 6,
+        "carbs": 18,
+        "fat": 22,
+        "calories": 290,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTjHp8G7dXhcjGbGGUw5bvaxwAIefV9oQHQ&s",
+        "allergens": [
+            "dairy",
+            "nuts"
+        ]
+    },
+    "rogan-josh": {
+        "name": "rogan-josh",
+        "protein": 22,
+        "carbs": 6,
+        "fat": 18,
+        "calories": 280,
+        "url": "https://www.whiskaffair.com/wp-content/uploads/2019/02/Mutton-Rogan-Josh-2-3.jpg",
+        "allergens": []
+    },
+    "paneer-tikka": {
+        "name": "paneer-tikka",
+        "protein": 18,
+        "carbs": 4,
+        "fat": 22,
+        "calories": 290,
+        "url": "https://sharethespice.com/wp-content/uploads/2024/02/Paneer-Tikka-Featured.jpg",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "chapati": {
+        "name": "chapati",
+        "protein": 3,
+        "carbs": 15,
+        "fat": 1,
+        "calories": 80,
+        "url": "https://images.unsplash.com/photo-1600935926387-12d9b03066f0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "gulab-jamun": {
+        "name": "gulab-jamun",
+        "protein": 2,
+        "carbs": 40,
+        "fat": 8,
+        "calories": 240,
+        "url": "https://media.istockphoto.com/id/163064596/photo/gulab-jamun.webp?a=1&b=1&s=612x612&w=0&k=20&c=F_5_AgCdrsecO13W-wiuCZAwYZPBpN3UETTyYtQQlLM=",
+        "allergens": [
+            "dairy",
+            "gluten"
+        ]
+    },
+    "raita": {
+        "name": "raita",
+        "protein": 3,
+        "carbs": 5,
+        "fat": 2,
+        "calories": 50,
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfEUSuzhm7kEbLruJHfIO2CNZtjqIUoe5aqUMPWIXYJaSK4DkIp-QfJ6bhevofUfLQhQCx67o9hcHS9jsmMulYLt4XV305Na7Un_2ZuEmClxuykEkgvM0763yNDWcM06jZmFZvu5OSy3ey/s4032/20200506_130009.jpg",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "bhindi-masala": {
+        "name": "bhindi-masala",
+        "protein": 3,
+        "carbs": 12,
+        "fat": 9,
+        "calories": 140,
+        "url": "https://www.anveshan.farm/cdn/shop/articles/BhindiMasala.jpg?v=1690790485",
+        "allergens": []
+    },
+    "idli": {
+        "name": "idli",
+        "protein": 2,
+        "carbs": 16,
+        "fat": 0.5,
+        "calories": 78,
+        "url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": []
+    },
+    "matar-paneer": {
+        "name": "matar-paneer",
+        "protein": 10,
+        "carbs": 14,
+        "fat": 16,
+        "calories": 240,
+        "url": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/matar-paneer-0.jpg",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "rajma": {
+        "name": "rajma",
+        "protein": 9,
+        "carbs": 22,
+        "fat": 7,
+        "calories": 190,
+        "url": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/05/rajma-recipe-2.jpg",
+        "allergens": []
+    },
+    "aloo-paratha": {
+        "name": "aloo-paratha",
+        "protein": 7,
+        "carbs": 50,
+        "fat": 15,
+        "calories": 350,
+        "url": "https://media.istockphoto.com/id/1418692758/photo/north-indian-famous-food-aloo-paratha-with-mango-pickle-and-butter.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rq02SWwsR23m-mYUHW8_hjS89sl4PdJmzrSNqjKFsKg=",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "vegetable-pulao": {
+        "name": "vegetable-pulao",
+        "protein": 7,
+        "carbs": 40,
+        "fat": 8,
+        "calories": 250,
+        "url": "https://media.istockphoto.com/id/1716378699/photo/yellow-chicken-biriyani.webp?a=1&b=1&s=612x612&w=0&k=20&c=h_oGfk0wzLtAjFN20fpCqUOEvJToJXuCiyTUszKkS7Q=",
+        "allergens": []
+    },
+    "paneer-butter-masala": {
+        "name": "paneer-butter-masala",
+        "protein": 15,
+        "carbs": 12,
+        "fat": 20,
+        "calories": 290,
+        "url": "https://images.unsplash.com/photo-1701579231378-3726490a407b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "khichdi": {
+        "name": "khichdi",
+        "protein": 6,
+        "carbs": 30,
+        "fat": 5,
+        "calories": 220,
+        "url": "https://media.istockphoto.com/id/1279703752/photo/making-kedgeree-series-the-final-stir.webp?a=1&b=1&s=612x612&w=0&k=20&c=aMybrz8eE71FGA_A5esQDKSEbI0kX4SQ3awjOag9R18=",
+        "allergens": []
+    },
+    "tikki-chaat": {
+        "name": "tikki-chaat",
+        "protein": 6,
+        "carbs": 20,
+        "fat": 10,
+        "calories": 180,
+        "url": "https://fusion-food.net/2022/03/aloo-tikki-chaat-crispy-potato-cake-with-incredible-toppings/",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "puri": {
+        "name": "puri",
+        "protein": 3,
+        "carbs": 15,
+        "fat": 6,
+        "calories": 150,
+        "url": "https://images.unsplash.com/photo-1596450512748-2dae774fc38a?q=80&w=1895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "vegetable-korma": {
+        "name": "vegetable-korma",
+        "protein": 5,
+        "carbs": 20,
+        "fat": 15,
+        "calories": 240,
+        "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/veg-kurma-vegetable-korma-recipe-500x375.jpg",
+        "allergens": [
+            "nuts",
+            "dairy"
+        ]
+    },
+    "bhel-puri": {
+        "name": "bhel-puri",
+        "protein": 4,
+        "carbs": 30,
+        "fat": 5,
+        "calories": 200,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj3fb1raHsOqjESFwLP_P5wVEGg5gi1Cb6dg&s",
+        "allergens": []
+    },
+    "sev-puri": {
+        "name": "sev-puri",
+        "protein": 3,
+        "carbs": 20,
+        "fat": 6,
+        "calories": 180,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmqY2C3z_gmNE36Q3PPYvAtG_MbiJaNHM8Mw&s",
+        "allergens": []
+    },
+    "aachari-paneer": {
+        "name": "aachari-paneer",
+        "protein": 14,
+        "carbs": 8,
+        "fat": 18,
+        "calories": 270,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1B_ikHbVsYNCeblyBoiaBxOoRSttO9wNM7A&s",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "prawn-curry": {
+        "name": "prawn-curry",
+        "protein": 24,
+        "carbs": 8,
+        "fat": 15,
+        "calories": 280,
+        "url": "https://khinskitchen.com/wp-content/uploads/2022/07/prawn-curry-with-coconut-milk-07.jpg",
+        "allergens": [
+            "seafood"
+        ]
+    },
+    "fish-curry": {
+        "name": "fish-curry",
+        "protein": 22,
+        "carbs": 10,
+        "fat": 18,
+        "calories": 290,
+        "url": "https://www.teaforturmeric.com/wp-content/uploads/2023/06/Fish-Curry-Recipe.jpg",
+        "allergens": [
+            "seafood"
+        ]
+    },
+    "chana-dal": {
+        "name": "chana-dal",
+        "protein": 9,
+        "carbs": 27,
+        "fat": 1,
+        "calories": 140,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0q8TQlHLgMKL-hA7OIOcy2lS4jnzyxYyyiQ&s",
+        "allergens": []
+    },
+    "pav-bhaji": {
+        "name": "pav-bhaji",
+        "protein": 6,
+        "carbs": 40,
+        "fat": 12,
+        "calories": 320,
+        "url": "https://www.cookwithmanali.com/wp-content/uploads/2018/05/Best-Pav-Bhaji-Recipe.jpg",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "idli-sambhar": {
+        "name": "idli-sambhar",
+        "protein": 8,
+        "carbs": 35,
+        "fat": 7,
+        "calories": 250,
+        "url": "https://www.awesomecuisine.com/wp-content/uploads/2008/02/idli_sambar.jpg",
+        "allergens": []
+    },
+    "methi-paratha": {
+        "name": "methi-paratha",
+        "protein": 5,
+        "carbs": 25,
+        "fat": 8,
+        "calories": 200,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZcCHARnShxQyqox1pFK62kbejFTaNSqzeA&s",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "chole-bhature": {
+        "name": "chole-bhature",
+        "protein": 10,
+        "carbs": 40,
+        "fat": 12,
+        "calories": 350,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4l17ZMHNUMb7BG1vDpIbL3qtnz1nCLLYLA&s",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "pani-puri": {
+        "name": "pani-puri",
+        "protein": 2,
+        "carbs": 20,
+        "fat": 4,
+        "calories": 130,
+        "url": "https://cdn1.foodviva.com/static-content/food-images/snacks-recipes/pani-puri/pani-puri.jpg",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "misal-pav": {
+        "name": "misal-pav",
+        "protein": 10,
+        "carbs": 35,
+        "fat": 15,
+        "calories": 300,
+        "url": "https://www.ohmyveg.co.uk/wp-content/uploads/2023/12/Misal-Pav-2-2-e1722869218662-720x720.jpg",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "kadhi-pakora": {
+        "name": "kadhi-pakora",
+        "protein": 7,
+        "carbs": 20,
+        "fat": 15,
+        "calories": 250,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEMavKF6HQaE00h6eQmg1fmeNcXnRrRbhiTQ&s",
+        "allergens": [
+            "dairy",
+            "gluten"
+        ]
+    },
+    "dal-tadka": {
+        "name": "dal-tadka",
+        "protein": 9,
+        "carbs": 25,
+        "fat": 8,
+        "calories": 200,
+        "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/dal-tadka-recipe.jpg",
+        "allergens": []
+    },
+    "aloo-tikki": {
+        "name": "aloo-tikki",
+        "protein": 3,
+        "carbs": 22,
+        "fat": 10,
+        "calories": 180,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy5Uv6rZTLiXXI1-Ain-58v2RcNJAhyzIW7Q&s",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "bhature": {
+        "name": "bhature",
+        "protein": 5,
+        "carbs": 45,
+        "fat": 15,
+        "calories": 330,
+        "url": "https://www.spiceupthecurry.com/wp-content/uploads/2015/03/Chole-bhature-1.jpg",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "chole": {
+        "name": "chole",
+        "protein": 9,
+        "carbs": 28,
+        "fat": 8,
+        "calories": 220,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQva4C0ZToi1oVlwy5F9_88M-VRgEjhSmMMSg&s",
+        "allergens": []
+    },
+    "vegetable-soup": {
+        "name": "vegetable-soup",
+        "protein": 2,
+        "carbs": 15,
+        "fat": 5,
+        "calories": 100,
+        "url": "https://realfoodwholelife.com/wp-content/uploads/2021/10/Slow-Cooker-Vegetable-Soup-2-500x500.jpg",
+        "allergens": []
+    },
+    "korma": {
+        "name": "korma",
+        "protein": 7,
+        "carbs": 20,
+        "fat": 14,
+        "calories": 230,
+        "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/08/chicken-korma-recipe.jpg",
+        "allergens": [
+            "nuts",
+            "dairy"
+        ]
+    },
+    "masoor-dal": {
+        "name": "masoor-dal",
+        "protein": 9,
+        "carbs": 25,
+        "fat": 1,
+        "calories": 150,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUn8GfHXunc4Nob--7zrP_K0MmbDtjQwiRJA&s",
+        "allergens": []
+    },
+    "egg-curry": {
+        "name": "egg-curry",
+        "protein": 13,
+        "carbs": 10,
+        "fat": 15,
+        "calories": 250,
+        "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/egg-curry-recipe.jpg",
+        "allergens": [
+            "egg"
+        ]
+    },
+    "methi-thepla": {
+        "name": "methi-thepla",
+        "protein": 5,
+        "carbs": 20,
+        "fat": 8,
+        "calories": 180,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIsZ5whPGjzIP4vl4YSo0-uXOyzzNYdM5uOg&s",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "dal-palak": {
+        "name": "dal-palak",
+        "protein": 7,
+        "carbs": 20,
+        "fat": 4,
+        "calories": 150,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMnrB7ountX-QVlwbQspz46Q6nUbQn_nxuxA&s",
+        "allergens": []
+    },
+    "dal-soup": {
+        "name": "dal soup",
+        "protein": 8,
+        "carbs": 20,
+        "fat": 3,
+        "calories": 160,
+        "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbIxaOrUchDZhxqxbYb_Vhd-kFCYfyLXlgxA&s",
+        "allergens": []
+    },
+    "aloo-baingan": {
+        "name": "aloo baingan",
+        "protein": 4,
+        "carbs": 25,
+        "fat": 10,
+        "calories": 200,
+        "url":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/aloo-baingan-recipe.jpg",
+        "allergens": []
+    },
+    "egg-bhurji": {
+        "name": "egg bhurji",
+        "protein": 20,
+        "carbs": 5,
+        "fat": 15,
+        "calories": 250,
+        "url":"https://spicecravings.com/wp-content/uploads/2023/03/Egg-Bhurji-Featured-1.jpg",
+        "allergens": [
+            "egg"
+        ]
+    },
+    "tandoori-roti": {
+        "name": "tandoori roti",
+        "protein": 5,
+        "carbs": 30,
+        "fat": 2,
+        "calories": 150,
+        "url":"https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/14423167232KIe8WnTzK_thumb.jpeg",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "kebabs": {
+        "name": "kebabs",
+        "protein": 25,
+        "carbs": 5,
+        "fat": 12,
+        "calories": 220,
+        "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR905UC3H2irnTd3a8Ag3e34A8evFHeYQUjA&s",
+        "allergens": []
+    },
+    "fruit-chaat": {
+        "name": "fruit chaat",
+        "protein": 2,
+        "carbs": 20,
+        "fat": 1,
+        "calories": 90,
+        "url":"https://spicecravings.com/wp-content/uploads/2022/04/Fruit-Chaat-Featured.jpg",
+        "allergens": []
+    },
+    "kheer": {
+        "name": "kheer",
+        "protein": 6,
+        "carbs": 25,
+        "fat": 12,
+        "calories": 250,
+        "url":"https://media.istockphoto.com/id/1225084622/photo/famous-indian-dessert-kheer-or-payasam.webp?a=1&b=1&s=612x612&w=0&k=20&c=FwBD-ztQ94kvQUGWRIufJUIkjGBcIMMOvV8mgpJy8Io=",
+        "allergens": [
+            "dairy"
+        ]
+    },
+    "rava-idli": {
+        "name": "rava idli",
+        "protein": 3,
+        "carbs": 20,
+        "fat": 5,
+        "calories": 150,
+        "url":"https://www.sharmispassions.com/wp-content/uploads/2012/07/RavaIdli6-e1668478539613.jpg",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "masala-dosa": {
+        "name": "masala dosa",
+        "protein": 6,
+        "carbs": 35,
+        "fat": 7,
+        "calories": 220,
+        "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjzzTNdCWsIqyjb4Zq01_gzBP5sBZKvFdN5AcT8FTxPSZqLFRzCi4uWXC7vPVccgpGsBI&usqp=CAU",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "biryani": {
+        "name": "biryani",
+        "protein": 10,
+        "carbs": 50,
+        "fat": 12,
+        "calories": 300,
+        "url":"https://images.unsplash.com/photo-1701579231305-d84d8af9a3fd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": []
+    },
+    "dal-sambar": {
+        "name": "dal sambar",
+        "protein": 8,
+        "carbs": 25,
+        "fat": 7,
+        "calories": 180,
+        "url":"https://images.unsplash.com/photo-1701579231305-d84d8af9a3fd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": []
+    },
+    "pulao": {
+        "name": "pulao",
+        "protein": 6,
+        "carbs": 35,
+        "fat": 8,
+        "calories": 220,
+        "url":"https://media.istockphoto.com/id/1817571082/photo/homemade-chicken-dum-biryani.webp?a=1&b=1&s=612x612&w=0&k=20&c=Hl6-CRDv2f5uFkuAD89-5MDqjkCsycCFWTZgDvFM3Co=",
+        "allergens": []
+    },
+    "corn-tikka": {
+        "name": "corn tikka",
+        "protein": 5,
+        "carbs": 15,
+        "fat": 10,
+        "calories": 180,
+        "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kYfEBpSp2U93Jeu_tLV1QNDelXhXgCLcig&s",
+        "allergens": []
+    },
+    "vada-pav": {
+        "name": "vada pav",
+        "protein": 6,
+        "carbs": 30,
+        "fat": 14,
+        "calories": 300,
+        "url":"https://images.unsplash.com/photo-1701579231305-d84d8af9a3fd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "allergens": [
+            "gluten"
+        ]
+    },
+    "sambar": {
+        "name": "sambar",
+        "protein": 8,
+        "carbs": 20,
+        "fat": 7,
+        "calories": 180,
+        "url":"https://www.cookwithmanali.com/wp-content/uploads/2019/05/Sambar-Recipe.jpg",
+        "allergens": []
+    },
+    "upma": {
+    "name": "upma",
+    "protein": 4,
+    "carbs": 30,
+    "fat": 6,
+    "calories": 180,
+    "url":"https://www.sharmispassions.com/wp-content/uploads/2013/07/RavaUpma2-e1659624509745.jpg",
+    "allergens": ["gluten"]
+  },
+  "poha": {
+    "name": "poha",
+    "protein": 3,
+    "carbs": 28,
+    "fat": 5,
+    "calories": 165,
+    "url":"https://media.istockphoto.com/id/1826136887/photo/flatten-rice-also-known-as-poha-is-popular-indian-snack-seasoned-with-veggies-and-rice.webp?a=1&b=1&s=612x612&w=0&k=20&c=m3YMZ0kLx0DysC6JsSBhJHazh7Hjir9qJULZ75fhiqQ=",
+    "allergens": []
+  },
+  "uttapam": {
+    "name": "uttapam",
+    "protein": 6,
+    "carbs": 30,
+    "fat": 8,
+    "calories": 210,
+    "url":"https://media.istockphoto.com/id/1831760230/photo/famous-south-indian-food-uthappam-with-chutney.webp?a=1&b=1&s=612x612&w=0&k=20&c=ric0R8eySt1YtwxbjrCEqU2ngRcb0GYPlhle2xuTsQM=",
+    "allergens": []
+  },
+  "paratha": {
+    "name": "paratha",
+    "protein": 5,
+    "carbs": 30,
+    "fat": 10,
+    "calories": 230,
+    "url":"https://media.istockphoto.com/id/1418692758/photo/north-indian-famous-food-aloo-paratha-with-mango-pickle-and-butter.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rq02SWwsR23m-mYUHW8_hjS89sl4PdJmzrSNqjKFsKg=",
+    "allergens": ["gluten"]
+  },
+  "dal-fry": {
+    "name": "dal fry",
+    "protein": 10,
+    "carbs": 25,
+    "fat": 6,
+    "calories": 190,
+    "url":"https://media.istockphoto.com/id/1793736673/photo/dal-makhani-with-lacha-paratha-in-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=oXqeA4kV__WQygre-8tP6FD8qy5cpqBIx_rxgZSYhfs=",
+    "allergens": []
+  },
+  "jeera-rice": {
+    "name": "jeera rice",
+    "protein": 4,
+    "carbs": 40,
+    "fat": 5,
+    "calories": 220,
+    "url":"https://media.istockphoto.com/id/667918214/photo/indian-jeera-rice-long-grain-basmati-rice.webp?a=1&b=1&s=612x612&w=0&k=20&c=kklaFwxHk72xjPn3GQQ3LMxssV2G_6LBX0facyEHut4=",
+    "allergens": []
+  },
+  "roti": {
+    "name": "roti",
+    "protein": 3,
+    "carbs": 15,
+    "fat": 1,
+    "calories": 80,
+    "url":"https://media.istockphoto.com/id/1298650125/photo/homemade-roti-chapati-flatbread.webp?a=1&b=1&s=612x612&w=0&k=20&c=lEbwkz1nYNX3GQuNOxpsPaTNYGwtFjk1SGJNSEeg3cU=",
+    "allergens": ["gluten"]
+  },
+  "lassi": {
+    "name": "lassi",
+    "protein": 3,
+    "carbs": 15,
+    "fat": 2,
+    "calories": 90,
+    "url":"https://media.istockphoto.com/id/1008799838/photo/image-of-a-glass-of-lassi-made-from-milk-curd.jpg?s=612x612&w=0&k=20&c=L--UXX-L2bsK6Jy-mEigONFj9QEJyvU8b77FJnBLpBg=",
+    "allergens": ["dairy"]
+  },
+  "rasam": {
+    "name": "rasam",
+    "protein": 2,
+    "carbs": 10,
+    "fat": 1,
+    "calories": 60,
+    "ur":"https://www.mrishtanna.com/wp-content/uploads/2020/01/instant-pot-tomato-rasam-recipe.jpg",
+    "allergens": []
+  },
+  "coconut-chutney": {
+    "name": "coconut chutney",
+    "protein": 2,
+    "carbs": 5,
+    "fat": 10,
+    "calories": 120,
+    "url":"https://ministryofcurry.com/wp-content/uploads/2020/07/coconut-chutney_-1.jpg",
+    "allergens": []
+  },
+  "aloo-matar": {
+    "name": "aloo matar",
+    "protein": 5,
+    "carbs": 25,
+    "fat": 8,
+    "calories": 190,
+    "url":"https://mygoodfoodworld.com/wp-content/uploads/2022/11/aloo-matar-recipe-served-with-salad.jpg",
+    "allergens": []
+  },
+  "baingan-bharta": {
+    "name": "baingan bharta",
+    "protein": 3,
+    "carbs": 12,
+    "fat": 7,
+    "calories": 120,
+    "url":"https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/baingan-bharta-500x375.jpg",
+    "allergens": []
+  },
+  "pakora": {
+    "name": "pakora",
+    "protein": 3,
+    "carbs": 15,
+    "fat": 10,
+    "calories": 160,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7trjx4aBcVm5wcTcXYcC5hCyLlRlUNQezeg&s",
+    "allergens": ["gluten"]
+  },
+  "chaat": {
+    "name": "chaat",
+    "protein": 4,
+    "carbs": 25,
+    "fat": 8,
+    "calories": 180,
+    "url":"https://static.toiimg.com/photo/67075879.cms",
+    "allergens": ["gluten"]
+  },
+  "kachumber-salad": {
+    "name": "kachumber salad",
+    "protein": 2,
+    "carbs": 8,
+    "fat": 1,
+    "calories": 50,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQayIagHW_71u1jD9AVGz0qsgksFG7Ge9xBFg&s",
+    "allergens": []
+  },
+  "sheera": {
+    "name": "sheera",
+    "protein": 3,
+    "carbs": 30,
+    "fat": 8,
+    "calories": 200,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5Xzu64PcVuv6h-TNXLFGD5Py6RcgL3KSrQ&s",
+    "allergens": ["gluten"]
+  },
+  "moong-dal": {
+    "name": "moong dal",
+    "protein": 12,
+    "carbs": 25,
+    "fat": 2,
+    "calories": 170,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5czXDEpDKnLmAHM27E1y7tLi1R1NuaKXjHQ&s",
+    "allergens": []
+  },
+  "papad": {
+    "name": "papad",
+    "protein": 2,
+    "carbs": 10,
+    "fat": 5,
+    "calories": 90,
+    "url":"https://media.istockphoto.com/id/666595984/photo/indian-snacks-deep-fried-crackers-or-papad-mung-dal-and-urad-dal-papad-an-indian-fried-dish.jpg?s=612x612&w=0&k=20&c=WNBWP2z6sXYhPSFbfxmVJe1oVkWtQHY-lc7RbWeM84o=",
+    "allergens": []
+  },
+  "pickle": {
+    "name": "pickle",
+    "protein": 1,
+    "carbs": 5,
+    "fat": 2,
+    "calories": 40,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYv7O7McjqPLuaFsOjFJqAxDmW7RjJlBxJFw&s",
+    "allergens": []
+  },
+  "chicken-curry": {
+    "name": "chicken curry",
+    "protein": 25,
+    "carbs": 10,
+    "fat": 15,
+    "calories": 280,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixzD4VzaxSG2VMrAqOZ3cec6xSYcSf08qyw&s",
+    "allergens": []
+  },
+  "aloo-methi": {
+    "name": "aloo methi",
+    "protein": 4,
+    "carbs": 20,
+    "fat": 8,
+    "calories": 180,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROoUnauQJRWWru6iubMms_0EzvdB-qTSn8gQ&s",
+    "allergens": []
+  },
+  "rajma-chawal": {
+    "name": "rajma chawal",
+    "protein": 10,
+    "carbs": 50,
+    "fat": 6,
+    "calories": 300,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ2R3FJk9RJI9-1Ke3yTsz8g4du-rD--4DSg&s",
+    "allergens": []
+  },
+  "gatte-ki-sabzi": {
+    "name": "gatte ki sabzi",
+    "protein": 10,
+    "carbs": 25,
+    "fat": 15,
+    "calories": 250,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk9dvguEcq4_tbH_usSVkV-eZyGeNiNsgcfA&s",
+    "allergens": ["gluten"]
+  },
+  "bundi-raita": {
+    "name": "bundi raita",
+    "protein": 3,
+    "carbs": 10,
+    "fat": 4,
+    "calories": 80,
+    "url":"https://www.archanaskitchen.com//images/archanaskitchen/1-Author/Madhuli_Ajay/Bhindi_Raita_Okra_Salad.jpg",
+    "allergens": ["dairy"]
+  },
+  "dhokla": {
+    "name": "dhokla",
+    "protein": 5,
+    "carbs": 20,
+    "fat": 2,
+    "calories": 120,
+    "url":"https://www.cookwithnabeela.com/wp-content/uploads/2024/02/KhamanDhokla1.webp",
+    "allergens": ["gluten"]
+  },
+  "kachori": {
+    "name": "kachori",
+    "protein": 4,
+    "carbs": 25,
+    "fat": 12,
+    "calories": 220,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu8zgAU0W-7hFTApVhhmZsTbkqgtO0MFWJ5Q&s",
+    "allergens": ["gluten"]
+  },
+  "rawa-upma": {
+    "name": "rawa upma",
+    "protein": 6,
+    "carbs": 30,
+    "fat": 7,
+    "calories": 200,
+    "url":"https://www.sharmispassions.com/wp-content/uploads/2013/07/RavaUpma2-e1659624509745.jpg",
+    "allergens": ["gluten"]
+  },
+  "kofta-curry": {
+    "name": "kofta curry",
+    "protein": 8,
+    "carbs": 15,
+    "fat": 20,
+    "calories": 250,
+    "url":"https://myheartbeets.com/wp-content/uploads/2019/09/Kofta-Curry-ground-meat-beef-lamb-500x500.jpg",
+    "allergens": ["dairy", "nuts"]
+  },
+  "pesarattu": {
+    "name": "pesarattu",
+    "protein": 6,
+    "carbs": 30,
+    "fat": 6,
+    "calories": 200,
+    "url":"https://rakskitchen.net/wp-content/uploads/2009/02/pesarattu-dosa.jpg",
+    "allergens": []
+  },
+  "ginger-tea": {
+    "name": "ginger tea",
+    "protein": 1,
+    "carbs": 10,
+    "fat": 1,
+    "calories": 50,
+    "url":"https://media.istockphoto.com/id/1215871818/photo/ginger-tea-adrak-chai-spiced-indian-tea-adrak-wali-chai-made-of-lemon-juice-honey-and-of.webp?a=1&b=1&s=612x612&w=0&k=20&c=qL3KWULg_PHSGKFL2E6rQ_pfAlgA72-GMTJRHXSKgvY=",
+    "allergens": []
+  }
+}
